@@ -1,0 +1,1 @@
+The Terminal Application used to access serial communication is **PuTTY 0.83**.
