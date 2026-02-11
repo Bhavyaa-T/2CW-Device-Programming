@@ -80,7 +80,11 @@ int main() {
         }
         else {
             select_led(sequence[l]);
-            wait(1);
+            wait(0.2);
+            led1 = false;
+            led2 = false;
+            led3 = false;
+            wait(0.2); // turning on and off makes the LEDs flash
             l=(l+1)%M;
         }
         }
